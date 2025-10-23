@@ -18,7 +18,7 @@ export default function Home() {
         color: 'black',
         marginBottom: '1rem'
       }}>
-        Future Energy Mobility
+        Future Mobility
       </h1>
       
       <div style={{
