@@ -149,7 +149,7 @@ export default function Terms() {
 
         <div style={{ marginBottom: '2rem' }}>
           <h2 style={{ color: '#333', marginBottom: '1rem', fontSize: '1.5rem', fontWeight: 'bold' }}>Incorporation of Acceptable Use Policies.</h2>
-          <p>These terms incorporate and include FE's Acceptable Use Policies (AUP).</p>
+          <p>These terms incorporate and include FE's <a href="https://futureenergy.com/terms-and-conditions/" target="_blank" style={{ color: '#0070f3', textDecoration: 'underline' }}>Acceptable Use Policies (AUP)</a>.</p>
         </div>
 
         <div style={{ marginBottom: '2rem' }}>
