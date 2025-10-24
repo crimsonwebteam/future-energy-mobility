@@ -1,3 +1,24 @@
+/* Design system variables */
+:root {
+  --wp--preset--color--black: rgb(0, 34, 64);
+  --wp--preset--color--white: #ffffff;
+  --wp--preset--color--primary: rgb(255, 77, 0);
+  --wp--preset--color--secondary: rgb(112, 212, 75);
+  --wp--preset--color--tertiary: rgb(0, 160, 212);
+  --wp--preset--color--gray-dark: rgb(40, 69, 94);
+  --wp--preset--color--gray: rgb(94, 115, 136);
+  --wp--preset--color--gray-light: rgb(236, 239, 241);
+  --wp--preset--color--default: rgb(255, 255, 255);
+  --brand-primary: #ff4d00;
+  --brand-secondary: #70d44b;
+  --brand-tertiary: #00a0d4;
+  --brand-black: #002240;
+  --brand-gray-dark: #28455e;
+  --brand-gray: #5e7388;
+  --brand-gray-light: #c9d1d7;
+  --brand-text-on-dark: #fff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +26,11 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  line-height: 1.6;
-  color: #333;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #00556e;
   background-color: white;
 }
 
@@ -23,13 +46,13 @@ body {
   text-align: center;
   margin-bottom: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #0070f3;
+  border-bottom: 2px solid #00556e;
 }
 
 .back-link {
   display: inline-block;
   margin-bottom: 1rem;
-  color: #0070f3;
+  color: #00556e;
   text-decoration: none;
   font-weight: 500;
 }
@@ -38,10 +61,25 @@ body {
   text-decoration: underline;
 }
 
+h1,
+.site-title {
+  color: #00556e;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: normal;
+  font-size: clamp(32px, 4.5vw, 42.56px);
+  line-height: clamp(38.4px, 5.4vw, 51.072px);
+}
+
 h1 {
-  color: #0070f3;
-  font-size: 2rem;
   margin-bottom: 0.5rem;
+}
+
+/* Main site title styling */
+.site-title {
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
 .download-section {
@@ -55,7 +93,7 @@ h1 {
 .download-btn {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #0070f3;
+  background-color: #00556e;
   color: white;
   text-decoration: none;
   border-radius: 8px;
@@ -64,7 +102,7 @@ h1 {
 }
 
 .download-btn:hover {
-  background-color: #0051a2;
+  background-color: #004252;
 }
 
 .content {
@@ -77,14 +115,17 @@ h1 {
 }
 
 .content h2 {
-  color: #333;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2em;
+  color: #00556e;
   margin-bottom: 1rem;
   font-size: 1.5rem;
-  font-weight: bold;
 }
 
 .content h3 {
-  color: #333;
+  color: #00556e;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
@@ -140,7 +181,7 @@ h1 {
 .document-item h3 {
   font-size: 1.3rem;
   margin-bottom: 1rem;
-  color: #333;
+  color: #00556e;
   text-align: center;
 }
 
@@ -154,7 +195,7 @@ h1 {
 .view-link {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #0070f3;
+  background-color: #00556e;
   color: white;
   text-decoration: none;
   border-radius: 8px;
@@ -164,13 +205,13 @@ h1 {
 }
 
 .view-link:hover {
-  background-color: #0051a2;
+  background-color: #004252;
 }
 
 .download-link {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #28a745;
+  background-color: #00556e;
   color: white;
   text-decoration: none;
   border-radius: 8px;
@@ -180,5 +221,88 @@ h1 {
 }
 
 .download-link:hover {
-  background-color: #218838;
+  background-color: #004252;
+}
+
+/* New button styles */
+
+.btn {
+  display: inline-block;
+  margin: 0;
+  font-weight: 400;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: .5em 1em;
+  font-size: .75em;
+  line-height: 1.2em;
+  border-radius: 3em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 100%;
+}
+
+.btn-tertiary {
+  color: var(--wp--preset--color--tertiary);
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid var(--wp--preset--color--tertiary);
+  -webkit-transition: background 125ms, border 125ms;
+  -o-transition: background 125ms, border 125ms;
+  transition: background 125ms, border 125ms;
+  border-radius: 3em;
+}
+
+.btn-default {
+  color: var(--wp--preset--color--black);
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid var(--wp--preset--color--black);
+  -webkit-transition: background 125ms, border 125ms;
+  -o-transition: background 125ms, border 125ms;
+  transition: background 125ms, border 125ms;
+  border-radius: 3em;
+}
+
+.btn-secondary {
+  color: var(--wp--preset--color--secondary);
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid var(--wp--preset--color--secondary);
+  -webkit-transition: background 125ms, border 125ms;
+  -o-transition: background 125ms, border 125ms;
+  transition: background 125ms, border 125ms;
+  border-radius: 3em;
+}
+
+.btn-secondary.active,
+.btn-secondary.focus,
+.btn-secondary:active,
+.btn-secondary:focus,
+.btn-secondary:hover {
+  color: var(--wp--preset--color--default);
+  background: var(--wp--preset--color--secondary);
+  border-color: var(--wp--preset--color--secondary);
+}
+
+.btn-tertiary.active, 
+.btn-tertiary.focus, 
+.btn-tertiary:active, 
+.btn-tertiary:focus, 
+.btn-tertiary:hover {
+  color: var(--wp--preset--color--default);
+  background: var(--wp--preset--color--tertiary);
+  border-color: var(--wp--preset--color--tertiary);
+}
+
+.btn span {
+  vertical-align: baseline;
+  display: inline-block;
 }
