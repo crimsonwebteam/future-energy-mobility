@@ -43,7 +43,7 @@ export default function Home() {
         <div style={{ background: 'white', padding: '1.5rem', border: '1px solid #003e72', width: '100%', maxWidth: '500px' }}>
           <h3 style={{ fontSize: '1.3rem', marginBottom: '1rem', color: '#00556e', textAlign: 'center' }}>Terms & Conditions</h3>
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <a href="/terms" className="btn btn-tertiary btn-default">
+            <a href="/terms-and-conditions" className="btn btn-tertiary btn-default">
               <span>View Online</span>
             </a>
             <a
