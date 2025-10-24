@@ -5,7 +5,7 @@ export default function Privacy() {
     <div style={{ maxWidth: '900px', margin: '0 auto', padding: '2rem' }}>
       <div style={{ textAlign: 'center', marginBottom: '2rem', paddingBottom: '1rem', borderBottom: '2px solid #00556e' }}>
         <a href="/" style={{ display: 'inline-block', marginBottom: '1rem', color: '#00556e', textDecoration: 'none', fontWeight: '500' }}>← Back to Future Mobility</a>
-        <h1>PRIVACY POLICY</h1>
+        <h1>Privacy Policy</h1>
       </div>
       
       <div style={{ background: '#f8f9fa', padding: '1rem', borderRadius: '8px', marginBottom: '2rem', textAlign: 'center' }}>
