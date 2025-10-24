@@ -221,14 +221,14 @@ export default function Privacy() {
             <li><strong>Right to restrict processing:</strong> you may request that we restrict processing information about you (for example, where you believe that this information is inaccurate).</li>
             <li><strong>Right to data portability:</strong> you may request that we provide you with information Future Mobility has about you in a structured, machine-readable, and commonly used format, and you may request that we transfer this information to another data controller.</li>
           </ul>
-          <p>If you would like assistance on any of the above requests, please email our Team with details of your request so that we may consider how we can help you.</p>
+          <p>If you would like assistance on any of the above requests, please email our <a href="mailto:support@futureenergy.com" style={{ color: '#00556e', textDecoration: 'underline' }}>Team</a> with details of your request so that we may consider how we can help you.</p>
         </div>
 
         <div style={{ marginBottom: '2rem' }}>
           <h2 style={{ color: '#00556e', marginBottom: '1rem', fontSize: '1.5rem', fontWeight: 'bold' }}>14. Future Mobility as a Data Processor.</h2>
           <p>Where you are using our Services and making decisions about the personal data that is being processed in the Services, you are acting as a data controller and Future Mobility is acting as a data processor.</p>
           <p>There are certain obligations under the GDPR that you have as a data controller, including being responsible for managing Content on the Services. As a data processor, Future Mobility will only access and process Content to provide you with the Services in accordance with your instructions (which you provide through the Services), the Terms of Service, and applicable laws. As part of delivering the Services, we may process Content to further improve the Services, such as enhancing usability and developing new features.</p>
-          <p>If you, as a data controller, require Future Mobility to agree to data protection requirements under Article 28, GDPR, or under UK data protection laws, Future Mobility makes available a data processing addendum that meets these requirements. Please email your customer details (organization name and plan information) with your request to our Team.</p>
+          <p>If you, as a data controller, require Future Mobility to agree to data protection requirements under Article 28, GDPR, or under UK data protection laws, Future Mobility makes available a data processing addendum that meets these requirements. Please email your customer details (organization name and plan information) with your request to our <a href="mailto:support@futureenergy.com" style={{ color: '#00556e', textDecoration: 'underline' }}>Team</a>.</p>
           <p>If you are using the Services as an authorized user of a Future Mobility customer (whether that customer is your employer, another organization, or an individual), that customer determines its own policies (if any) regarding storage, access, modification, deletion, sharing, and retention of personal data and Content, which may apply to your use of the Services. Please check with that customer about the policies and settings it has in place.</p>
         </div>
 
@@ -250,7 +250,7 @@ export default function Privacy() {
             <li>The right to have your personal information deleted.</li>
             <li>The right not to be discriminated against for exercising consumer rights under the CCPA.</li>
           </ul>
-          <p>You may exercise your rights by emailing our Privacy team. If your organization requires a CCPA addendum, please email us your customer details (organization name and plan information) with your request here.</p>
+          <p>You may exercise your rights by emailing our Privacy team. If your organization requires a CCPA addendum, please email us your customer details (organization name and plan information) with your request <a href="mailto:support@futureenergy.com" style={{ color: '#00556e', textDecoration: 'underline' }}>here</a>.</p>
           <p>While we disclose personal information to service providers for the purpose of managing our relationship with you (e.g. distributing marketing communications) and providing the Services, we do not sell your personal information.</p>
         </div>
 
